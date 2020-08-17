@@ -40,6 +40,9 @@ function RegistrationForm() {
         <label htmlFor="lname">Last Name</label> &nbsp;
         <input id="lname" type="text" pattern="[a-zA-Z]+" name="lname" required title="Please specify the first name"/>
         <br />
+        <label htmlFor="pwd">Password</label> &nbsp;
+        <input id="pwd" type="text" pattern=".{8,}" name="password" required title="Please specify the password and enter at least 8 characters"/>
+        <br />
         <label htmlFor="email">Email</label> &nbsp;
         <input id="email" type="email" name="email" />
       </fieldset>
