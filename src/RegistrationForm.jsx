@@ -35,10 +35,10 @@ function RegistrationForm() {
         </select>
         <br />
         <label htmlFor="fname">First Name</label> &nbsp;
-        <input id="fname" type="text" name="fname" pattern="[A-Za-z]" required title="Please specify the first name and using characters from a-z only"/>
+        <input id="fname" type="text" pattern="[a-zA-Z]+" name="fname" required title="Please specify the first name and using characters from a-z only"/>
         <br />
         <label htmlFor="lname">Last Name</label> &nbsp;
-        <input id="lname" type="text" name="lname" pattern="[A-Za-z]" required title="Please specify the first name"/>
+        <input id="lname" type="text" pattern="[a-zA-Z]+" name="lname" required title="Please specify the first name"/>
         <br />
         <label htmlFor="email">Email</label> &nbsp;
         <input id="email" type="email" name="email" />
